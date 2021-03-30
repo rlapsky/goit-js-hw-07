@@ -1,7 +1,7 @@
 
 let validationValue = document.querySelector("#validation-input")
 function focusout(){
-    if(validationValue.value.length >= validationValue.dataset.length)
+    if(validationValue.value.length == "6")
     {
         validationValue.classList.add('valid'),
         validationValue.classList.remove('invalid')
