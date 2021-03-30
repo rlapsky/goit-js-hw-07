@@ -5,4 +5,4 @@ const categoriesArray = [...totalCategories]
 .map( categories => `Категория ${categories.children[0].textContent}
 Количество елементов: ${categories.children[1].children.length}`)
 .join('\n')
-console.log(categoriesArray);
+

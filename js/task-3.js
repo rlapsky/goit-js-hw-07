@@ -18,8 +18,7 @@ const images = [
 
 let pictureEl = "";
 images.map(image=>{
-    pictureEl+=`<li><img src="${image.url}" alt="${image.alt}"></li>`
+    itemOfUl+=`<li><img src="${image.url}" alt="${image.alt}"></li>`
     })
 let gellery = document.querySelector("#gallery")
-gellery.insertAdjacentHTML("beforeend",pictureEl)
-console.log(pictureEl);
+gellery.insertAdjacentHTML("beforeend",itemOfUl)

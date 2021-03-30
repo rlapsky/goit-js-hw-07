@@ -4,4 +4,4 @@ let spanSize = document.querySelector("#text")
 function changeSizeSpan (){
     spanSize.style.fontSize = changeSize.value + "px"
 }
-console.log(spanSize);
+
